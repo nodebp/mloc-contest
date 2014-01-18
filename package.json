@@ -1,0 +1,34 @@
+{
+  "name": "mloc-contest",
+  "version": "0.0.1",
+  "description": "Code-golf contest for an MLOC ticket",
+  "main": "cf.js",
+  "scripts": {
+    "test": "mocha test/*.js",
+    "test-bg": "mocha -w -G test/*.js"
+  },
+  "author": "nodebp <info@nodebp.com>",
+  "contributors": [{
+    "name": "Gergely Németh",
+    "email": "mail@nemethgergely.com"
+  }, {
+    "name": "Róbert Oroszi",
+    "email": "robert@oroszi.net"
+  }, {
+    "name": "Tamás Besenyei",
+    "email": "tamas@besenyei.net"
+  }, {
+    "name": "Bence Dányi",
+    "email": "madbence@gmail.com"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodebp/mloc-contest.git"
+  },
+  "license": "BSD",
+  "devDependencies": {
+    "mocha": "~1.15.1",
+    "concat-stream": "~1.4.1",
+    "should": "~2.1.1"
+  }
+}
