@@ -5,7 +5,7 @@ var Stream = require("stream"),
 
 function ConnectFour() {
   Stream.Transform.apply(this, arguments);
-}
+};
 
 util.inherits(ConnectFour, Stream.Transform);
 
